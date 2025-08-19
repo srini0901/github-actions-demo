@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Say Hello
-        run:  echo :GitHub Actions is working"
+        run:  echo "GitHub Actions is working"
       - name: Deploy report to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
